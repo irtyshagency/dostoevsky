@@ -7,9 +7,8 @@ export default function Footer() {
 
                 <div className="">
 
-                    <div>{`© ${new Date().getFullYear()}`}</div>
-                    <div>{` • `}</div>
-                    <Link href="/">Dostoevsky</Link>
+                    <p className="text-center">© <Link href="/">Dostoevsky AI</Link>, {` ${new Date().getFullYear()}`}</p>
+
                 </div>
         </footer>
     )
