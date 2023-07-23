@@ -20,7 +20,7 @@ export default function Hero() {
                     Dostoevsky AI
                 </h1>
                 <p className="mt-6 text-lg leading-8 text-gray-600">
-                    Ваш личный ассистент по письму на базе искусственного интеллекта.
+                    Ваш личный ассистент по по написанию текстов на базе искусственного интеллекта.
                 </p>
                 <div className="mt-10 flex items-center justify-center gap-x-6">
                     <Link
