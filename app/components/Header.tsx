@@ -60,10 +60,12 @@ export default function Header() {
                         <div className="flex items-center justify-between">
                             <a href="#" className="-m-1.5 p-1.5">
                                 <span className="sr-only">Your Company</span>
-                                <img
+                                <Image
+                                    src="/logo.svg"
+                                    width={30}
+                                    height={30}
                                     className="h-8 w-auto"
-                                    src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-                                    alt=""
+                                    alt="Dostoevsky AI logo"
                                 />
                             </a>
                             <button
