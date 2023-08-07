@@ -9,11 +9,20 @@ export default function Home() {
     <>
       <Header />
 
-      <main className="relative mt-32">
+      <main className="relative container mt-32">
 
-        <Chat />
-
-        <Form />
+        <div className="flex flex-row">
+          <div className="basis-3/12">
+            <div className="bg-white px-6 py-3 shadow-xl rounded-2xl">
+              <Chat />
+            </div>
+          </div>
+          <div className="basis-9/12">
+            <div className='pl-24 pr-6'>
+              <Form />
+            </div>
+          </div>
+        </div>
 
       </main>
 
