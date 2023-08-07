@@ -3,6 +3,7 @@ import Footer from "@/app/components/Footer";
 import Header from "@/app/components/Header";
 import Chat from "@/app/components/Chat";
 import Form from '../components/Form';
+import Msg from '../components/Item';
 
 export default function Home() {
   return (
@@ -19,6 +20,8 @@ export default function Home() {
           </div>
           <div className="basis-9/12">
             <div className='pl-24 pr-6'>
+              <Msg />
+
               <Form />
             </div>
           </div>
