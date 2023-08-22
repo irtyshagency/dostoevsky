@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Footer from "@/app/components/Footer";
 import Header from "@/app/components/Header";
-import Chat from "@/app/components/Chat";
+import List from "@/app/components/List";
 import Form from '../components/Form';
 import Msg from '../components/Item';
 
@@ -15,7 +15,7 @@ export default function Home() {
         <div className="flex flex-row">
           <div className="basis-3/12">
             <div className="bg-white px-6 py-3 shadow-xl rounded-2xl">
-              <Chat />
+              <List />
             </div>
           </div>
           <div className="basis-9/12">
